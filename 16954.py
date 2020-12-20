@@ -40,7 +40,6 @@ while dq:
     y, x, t = dq.popleft()
     if y == 1 and x == 8:
         result = 1
-        print(t)
         break
     if now != t:
         now += 1
